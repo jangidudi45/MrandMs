@@ -59,12 +59,12 @@ photozip = 'https://envs.sh/cD_.jpg'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/meketchum")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/Maisamyahu")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(text="🛠️ Channel", url="https://t.me/Medicoarmy"),
-            InlineKeyboardButton(text="🛠️ Support", url="https://t.me/meketchum"),
+            InlineKeyboardButton(text="🛠️ Support", url="https://t.me/Maisamyahu"),
         ],
     ]
 )
@@ -725,12 +725,12 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'[🎬]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{name1} [{res}p] .mkv`\n<b>Batch Name :</b> {b_name}\n\n**Extracted by ➤ **{CR}\n'
-                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{name1} .pdf`\n<b>Batch Name :</b> {b_name}\n\n**Extracted by ➤ **{CR}\n'
-                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n<b>Batch Name :</b> {b_name}\n\n**Extracted by ➤ **{CR}\n' 
-                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{name1} .jpg`\n<b>Batch Name :</b> {b_name}\n\n**Extracted by ➤ **{CR}\n'
-                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n<b>Batch Name :</b> {b_name}\n\n**Extracted by ➤ **{CR}\n'
-                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n<b>Batch Name :</b> {b_name}\n\n**Extracted by ➤ **{CR}\n'
+                cc = f'[🎬]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{name1} [{res}p] .mkv`\n<b>📘 Course :</b> {b_name}\n\n**<b>🚀 Extracted By :</b> **{CR}\n'
+                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{name1} .pdf`\n<b>📘 Course :</b> {b_name}\n\n**<b>🚀 Extracted By :</b> **{CR}\n'
+                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n<b>📘 Course :</b> {b_name}\n\n**<b>🚀 Extracted By :</b> **{CR}\n' 
+                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{name1} .jpg`\n<b>📘 Course :</b> {b_name}\n\n**<b>🚀 Extracted By :</b> **{CR}\n'
+                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n<b>📘 Course :</b> {b_name}\n\n**<b>🚀 Extracted By :</b> **{CR}\n'
+                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n<b>📘 Course :</b> {b_name}\n\n**<b>🚀 Extracted By :</b> **{CR}\n'
                   
                 if "drive" in url:
                     try:
